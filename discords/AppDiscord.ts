@@ -14,7 +14,7 @@ enum TextChoices {
 }
 
 @Discord()
-@Guild("YOUR_GUILD_ID")
+//@Guild("YOUR_GUILD_ID_FOR_DEV")
 @Group(
   "testing",
   "Testing group description",
@@ -70,7 +70,7 @@ export abstract class AppDiscord {
 }
 
 @Discord()
-@Guild("YOUR_GUILD_ID")
+// @Guild("YOUR_GUILD_ID_FOR_DEV")
 export abstract class AppDiscord1 {
   @Slash("hello")
   add(

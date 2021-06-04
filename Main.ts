@@ -24,6 +24,7 @@ export class Main {
         `${__dirname}/discords/*.js` 
       ],
       requiredByDefault: true,
+      slashGuilds: ["YOUR_GUILD_ID_FOR_DEV"]
     });
 
     await this._client.login("YOUR_TOKEN");

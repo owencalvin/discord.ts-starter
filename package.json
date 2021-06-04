@@ -4,6 +4,9 @@
     "discord.js": "github:discordjs/discord.js",
     "reflect-metadata": "^0.1.13"
   },
+  "scripts": {
+    "start": "ts-node Main.ts"
+  },
   "devDependencies": {
     "@types/node": "^15.6.0",
     "ts-node": "^9.1.1",
