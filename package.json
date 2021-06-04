@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@typeit/discord": "^5.0.3",
+    "@typeit/discord": "^5.0.12",
     "discord.js": "github:discordjs/discord.js",
     "reflect-metadata": "^0.1.13"
   },
